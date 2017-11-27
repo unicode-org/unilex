@@ -9,7 +9,7 @@ data for the Venetian language as used in the Padua subdivision of Italy.
 
 ## Word frequency
 
-In [frequency](frequency/), we collect data how often each word form
+In [frequency](data/frequency/), we collect data how often each word form
 appears per million tokens in a language corpus. Currently, we use
 Google’s [Corpus Crawler](https://github.com/googlei18n/corpuscrawler)
 project to build language corpora from we’re computing word frequencies,
@@ -18,6 +18,6 @@ but we’re open to accepting other contributions.
 
 ## Pronunciation
 
-In [pronunciation](pronunciation/), we’ll collect phonemic transcriptions
+In [pronunciation](data/pronunciation/), we’ll collect phonemic transcriptions
 of every word form to the
 [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
