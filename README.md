@@ -1,7 +1,8 @@
 # ![Unicode](http://www.unicode.org/webscripts/logo60s2.gif) Unilex
 
 Unilex is a machine-readable list of words.  For every word in every
-language, we’d like to collect properties such as word frequency,
+language, we’d like to collect [properties](PROPERTIES.md) such as
+word frequency,
 pronunciation, hyphenation, part of speech, or grammatical
 information.  The [Unicode Consortium](http://www.unicode.org/)
 releases this data under the same
