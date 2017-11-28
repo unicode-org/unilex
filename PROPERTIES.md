@@ -9,11 +9,14 @@ data for the Venetian language as used in the Padua subdivision of Italy.
 
 ## Word frequency
 
-In [frequency](data/frequency/), we collect data how often each word form
-appears per million tokens in a language corpus. Currently, we use
-Google’s [Corpus Crawler](https://github.com/googlei18n/corpuscrawler)
-project to build language corpora from we’re computing word frequencies,
-but we’re open to accepting other contributions.
+In [frequency](data/frequency/), we collect data how often each word
+form appears per billion tokens in a language corpus. (Our corpora are
+actually much smaller than a billion tokens, but their size varies a lot
+depending on the language; so we scale the numbers to a hypothetical
+total of one billion tokens per language). Currently, we use Google’s
+[Corpus Crawler](https://github.com/googlei18n/corpuscrawler) project
+to build language corpora from we’re computing word frequencies, but
+we’re open to accepting other contributions.
 
 
 ## Pronunciation
