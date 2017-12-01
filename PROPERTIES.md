@@ -1,7 +1,7 @@
 # Unilex Properties
 
 All files in [data](data/) are tab-separated plaintext files in
-Unicode encoding. The file names are [Unicode language
+UTF-8 encoding. The file names are [Unicode language
 identfiers](http://unicode.org/reports/tr35/#Unicode_language_identifier)
 in IETF BCP47 syntax; for example, `vec-u-sd-itpd.txt` contains
 data for the Venetian language as used in the Padua subdivision of Italy.
