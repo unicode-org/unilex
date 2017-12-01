@@ -24,3 +24,10 @@ we’re open to accepting other contributions.
 In [pronunciation](data/pronunciation/), we’ll collect phonemic transcriptions
 of every word form to the
 [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+
+
+## Morphology
+
+The data in [morphology](data/morphology/) is highly experimental and
+likely to change. Before settling on a format, we’ll be trying to model
+a set of languages with challenging morphology.
