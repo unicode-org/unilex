@@ -28,6 +28,6 @@ of every word form to the
 
 ## Morphology
 
-The data in [morphology](data/morphology/) is highly experimental and
+The data in [stems](data/stems/) is highly experimental and
 likely to change. Before settling on a format, we’ll be trying to model
 a set of languages with challenging morphology.
