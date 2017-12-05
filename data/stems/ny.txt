@@ -1,5 +1,7 @@
+Lemma	PartOfSpeech	MorphologyClass	Features
+
 # SPDX-License-Identifier: Unicode-DFS-2016
-# Columns: Lemma; PartOfSpeech; MorphologyClass; Features
+
 abakadya	NOUN	N1-2	*
 abwito	NOUN	N1-2	*
 achale	NOUN	N14-X	*

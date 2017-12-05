@@ -1,5 +1,6 @@
+Form	Pronunciation
+
 # SPDX-License-Identifier: Unicode-DFS-2016
-# Columns: Form; Pronunciation
 
 අං	aŋ
 අංක	aŋkə
