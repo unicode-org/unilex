@@ -1,7 +1,13 @@
 # Contributors
 
-In alphabetical order:
+Companies, in alphabetical order:
 
+* DFKI (German Research Center for Artificial Intelligence) GmbH
 * Google LLC
-* Kevin Scannell
+
+
+Individuals, in alphabetical order of last name:
+
 * Sascha Brawer
+* Kevin Scannell
+* Ingmar Steiner
