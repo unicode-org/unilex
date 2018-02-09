@@ -673,7 +673,7 @@ ani	ˈa.ni
 Anja	ˈa.ɲa
 ano	ˈa.no
 Anon	aˈnoŋ
-Anpeth	aŋˈpet
+Anpeth	aŋˈpeθ
 anpia	ˈaŋ.pja
 anpò	aŋˈpɔ
 ànpoła	ˈaŋ.po.e̯a
@@ -1250,7 +1250,7 @@ auguri	a.uˈɡu.ɾi
 augurio	a.uˈɡu.ɾjo
 àuła	ˈa.u.e̯a
 aumento	a.uˈmeŋ.to
-Auronth	a.uˈɾoŋt
+Auronth	a.uˈɾoŋθ
 Australia	a.uˈstɾa.lja
 Àustria	ˈa.u.stɾja
 Austria	aˈu.stɾja
@@ -4402,7 +4402,7 @@ całafatare	ka.e̯a.faˈta.ɾe
 całài	kaˈe̯a.i
 całain	ka.e̯aˈiŋ
 całaini	ka.e̯aˈi.ni
-Calalth	kaˈlalt
+Calalth	kaˈlalθ
 całamar	ka.e̯aˈmaɾ
 całamari	ka.e̯aˈma.ɾi
 całamaro	ka.e̯aˈma.ɾo
@@ -11914,7 +11914,7 @@ fondesta	foŋˈde.sta
 fondeste	foŋˈde.ste
 fondesti	foŋˈde.sti
 fondesto	foŋˈde.sto
-Fondhas	foŋˈd͡zas
+Fondhas	foŋˈðas
 fondi	ˈfoŋ.di
 fondina	foŋˈdi.na
 fondine	foŋˈdi.ne
@@ -16270,7 +16270,7 @@ Leon	leˈoŋ
 łèseghi	ˈe̯ɛ.se.ɡi
 łèsego	ˈe̯ɛ.se.ɡo
 łeso	ˈe.so
-Łesotho	eˈso.to
+Łesotho	eˈso.θo
 łèta	ˈe̯ɛ.ta
 łétara	ˈe.ta.ɾa
 łetararia	e.taˈɾa.ɾja
@@ -16484,7 +16484,7 @@ Limana	liˈma.na
 łivełi	iˈve.i
 łiveło	iˈve.o
 Łivensa	iˈveŋ.sa
-Łiventha	iˈveŋ.ta
+Łiventha	iˈveŋ.θa
 Livinalongo	li.vi.naˈloŋ.ɡo
 łiziera	iˈzje.ɾa
 łiziere	iˈzje.ɾe
@@ -16553,7 +16553,7 @@ Longaron	loŋ.ɡaˈɾoŋ
 łora	ˈe̯o.ɾa
 łore	ˈe̯o.ɾe
 Łoreja	e̯oˈɾe.ja
-Lorenthago	lo.ɾeŋˈta.ɡo
+Lorenthago	lo.ɾeŋˈθa.ɡo
 Łoreo	e̯oˈɾe.o
 łori	ˈe̯o.ɾi
 Łoria	ˈe̯o.ɾja
@@ -16563,7 +16563,7 @@ Lorenthago	lo.ɾeŋˈta.ɡo
 Łoso	ˈe̯o.so
 łota	ˈe̯o.ta
 łote	ˈe̯o.te
-Loth	lot
+Loth	loθ
 łova	ˈe̯o.va
 Łóvari	ˈe̯o.va.ɾi
 Łovatoto	e̯o.vaˈto.to
@@ -16627,8 +16627,8 @@ Luigi	ˈlwi.d͡ʒi
 łustre	ˈe̯u.stɾe
 łustri	ˈe̯u.stɾi
 łustro	ˈe̯u.stɾo
-Łuthia	ˈe̯u.tja
-Luthia	ˈlu.tja
+Łuthia	ˈe̯u.θja
+Luthia	ˈe̯u.θja
 łuzarioła	e̯u.zaˈɾjo.e̯a
 łuzariołe	e̯u.zaˈɾjo.e
 łuzaroła	e̯u.zaˈɾo.e̯a
@@ -17374,7 +17374,7 @@ mèdemo	ˈmɛ.de.mo
 medèzemo	meˈdɛ.ze.mo
 medezina	me.deˈzi.na
 medezine	me.deˈzi.ne
-Medhuna	meˈd͡zu.na
+Medhuna	meˈðu.na
 mediasion	me.djaˈsjoŋ
 medisina	me.diˈsi.na
 medisine	me.diˈsi.ne
@@ -26445,7 +26445,7 @@ sodisfar	so.diˈsfaɾ
 sodisfare	so.diˈsfa.ɾe
 sodisfarse	so.diˈsfaɾ.se
 sodisfasion	so.di.sfaˈsjoŋ
-Soèrdhen	soˈɛɾ.d͡zeŋ
+Soèrdhen	soˈɛɾ.ðeŋ
 soeta	soˈe.ta
 soete	soˈe.te
 soetona	so.eˈto.na
@@ -28884,10 +28884,10 @@ tetone	teˈto.ne
 teza	ˈte.za
 teze	ˈte.ze
 Teze	ˈte.ze
-Thenthenighe	teŋ.teˈni.ɡe
-Tholdo	tol.do
-Thopè	toˈpɛ
-Thubiana	tu.bja.na
+Thenthenighe	θeŋ.θeˈni.ɡe
+Tholdo	θol.do
+Thopè	θoˈpɛ
+Thubiana	θu.bja.na
 ti	ti
 Tìbet	ˈti.bet
 tibi	ˈti.bi
