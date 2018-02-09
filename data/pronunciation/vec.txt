@@ -1551,8 +1551,8 @@ bagoło	baˈɡo.e̯o
 bagołoza	ba.ɡoˈe̯o.za
 bagołoze	ba.ɡoˈe̯o.ze
 bagonghi	baˈɡoŋ.ɡi
-Bahàmas	baˈha.mas
-Bahrèin	bahˈɾɛ.iŋ
+Bahàmas	baˈa.mas
+Bahrèin	baˈɾɛ.iŋ
 bai	ˈba.i
 baià	baˈja
 baìcołi	baˈi.ko.i
@@ -1770,7 +1770,7 @@ bandoni	baŋˈdo.ni
 bandoti	baŋˈdo.ti
 bandoto	baŋˈdo.to
 bàndus	ˈbaŋ.dus
-Bangladesh	ban.ʎaˈdesh
+Bangladesh	ban.ʎaˈdeʃ
 banjà	baˈɲa
 banjada	baˈɲa.da
 banjade	baˈɲa.de
@@ -13162,10 +13162,10 @@ Guyana	ɡuˈja.na
 guzeła	ɡuˈze.a
 guzełe	ɡuˈze.e
 gvarà	ɡvaˈɾa
-h	h
-Haiti	haˈi.ti
-Honduras	hoŋ.duˈɾas
-Hong	hoŋ
+h	ˈa.ka
+Haiti	aˈi.ti
+Honduras	oŋ.duˈɾas
+Hong	oŋ
 i	i
 ICESCR	iˈt͡ʃeskɾ
 idèa	iˈdɛ.a
@@ -13808,7 +13808,6 @@ incaramełarse	iŋ.ka.ɾa.meˈaɾ.se
 incaratarse	iŋ.ka.ɾaˈtaɾ.se
 incargarà	iŋ.kaɾ.ɡaˈɾa
 incarghi	iŋˈkaɾ.ɡi
-incarhhi	iŋˈkaɾh.hi
 incarnà	iŋ.kaɾˈna
 incarnada	iŋ.kaɾˈna.da
 incarnade	iŋ.kaɾˈna.de
@@ -17115,7 +17114,7 @@ marsa	ˈmaɾ.sa
 marsaroła	maɾ.saˈɾo.e̯a
 marsarołe	maɾ.saˈɾo.e
 marse	ˈmaɾ.se
-Marshall	maɾsˈhall
+Marshall	maɾˈʃal
 marsi	ˈmaɾ.si
 marsìa	maɾˈsi.a
 marsìe	maɾˈsi.e
@@ -23547,7 +23546,7 @@ sagrài	saˈɡɾa.i
 sagre	ˈsa.ɡɾe
 sagrestan	sa.ɡɾeˈstaŋ
 sagrestani	sa.ɡɾeˈsta.ni
-Sahara	saˈha.ɾa
+Sahara	saˈa.ɾa
 sajà	saˈja
 sajada	saˈja.da
 sajade	saˈja.de
