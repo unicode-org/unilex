@@ -8,6 +8,8 @@ Companies, in alphabetical order:
 
 Individuals, in alphabetical order of last name:
 
+* Laurent Besacier
 * Sascha Brawer
+* Sarah Flora Samson Juan
 * Kevin Scannell
 * Ingmar Steiner
