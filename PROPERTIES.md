@@ -7,7 +7,7 @@ in IETF BCP47 syntax; for example, `vec-u-sd-itpd.txt` contains
 data for the Venetian language as used in the Padua subdivision of Italy.
 
 If you’d like to contribute something, please
-[tell us](https://github.com/unicode-org/unilex/issues).
+[tell us by filing a GitHub issue](https://github.com/unicode-org/unilex/issues).
 
 
 ## Word frequency
@@ -48,9 +48,17 @@ In [pronunciation](data/pronunciation/), we collect phonemic
 transcriptions of every word form to the [International Phonetic
 Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
-If the pronunciation varies by part of speech, we have a `PartOfSpeech`
-column in the pronunciation dictionary. As with everthing in this project,
-the format might be improved at some point.
+If a word has multiple pronunciations, we have separate entries.
+If the pronunciation varies by part of speech or grammatical features,
+we have a `PartOfSpeech` and `Features` column in the pronunciation
+dictionary; see
+[Bangla pronunciation](https://raw.githubusercontent.com/unicode-org/unilex/master/data/pronunciation/bn.txt) for an example. As
+with everthing in this project, the data format will likely need to
+get improved at some point.
+
+Please [file an issue](https://github.com/unicode-org/unilex/issues)
+to improve the current data, or to add additional data sets.
+You’re also welcome to simply send [pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) via GitHub.
 
 
 ## Hyphenation
@@ -74,3 +82,6 @@ model a set of languages with challenging morphology.
 ## Part of Speech
 
 Currently, we have no part-of-speech tags. Contributions welcome.
+Please [file an issue](https://github.com/unicode-org/unilex/issues)
+to improve the current data, or to add additional data sets.
+You’re also welcome to simply send [pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) via GitHub.
