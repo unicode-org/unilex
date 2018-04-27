@@ -2,13 +2,15 @@
 
 Unilex is a machine-readable list of words.  For every word in every
 language, we’d like to collect [properties](PROPERTIES.md) such as
-word frequency,
-pronunciation, hyphenation, part of speech, or grammatical
-information.  The [Unicode Consortium](http://www.unicode.org/)
+[word frequency](PROPERTIES.md#word-frequency),
+[pronunciation](PROPERTIES.md#pronunciation),
+[hyphenation](PROPERTIES.md#hyphenation), or eventually [part of
+speech](PROPERTIES.md#part-of-speech) and other linguistic
+information. The [Unicode Consortium](http://www.unicode.org/)
 releases this data under the same
-[license](http://unicode.org/copyright.html#License)
-as all its other data files. We hope you’ll find this data useful for
-building spell checkers, text-to-speech synthesis systems, or similar
+[license](http://unicode.org/copyright.html#License) as all its other
+data files. We hope you’ll find this data useful for building spell
+checkers, text-to-speech synthesis systems, and similar
 language-processing software.
 
 This project has just started, so you’ll see that the current coverage
