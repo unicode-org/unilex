@@ -6,6 +6,9 @@ identfiers](http://unicode.org/reports/tr35/#Unicode_language_identifier)
 in IETF BCP47 syntax; for example, `vec-u-sd-itpd.txt` contains
 data for the Venetian language as used in the Padua subdivision of Italy.
 
+If you’d like to contribute something, please
+[tell us](https://github.com/unicode-org/unilex/issues).
+
 
 ## Word frequency
 
@@ -15,19 +18,59 @@ actually much smaller than a billion tokens, but their size varies a lot
 depending on the language; so we scale the numbers to a hypothetical
 total of one billion tokens per language). Currently, we use Google’s
 [Corpus Crawler](https://github.com/googlei18n/corpuscrawler) project
-to build language corpora from we’re computing word frequencies, but
-we’re open to accepting other contributions.
+to build language corpora. We’re computing our word frequencies on these
+crawled corpora, but we’re open to accepting other contributions.
+
+**Noise:** We are just getting started, so there will be some noise in
+the word frequency data. For example, there may be odd words resulting
+from quoting a foreign language, or words representing model numbers
+(“A3”). So people should use it with that in mind. That being said, it
+should be usable enough to advance the quality for languages that
+otherwise have little available data.
+
+**Segmentation:** The crawled data uses the word-break algorithm of
+the ICU library. For many languages, this corresponds to what people
+think of as “space-delimited” words. For languages that don’t
+typically use spaces, and are not supported by ICU’s word break, the
+mechanism doesn’t yet work. We’ll need address this at some later
+point.
+
+**N-Grams:** Currently, we have no n-gram data available for our
+datasets. However, you can run [Corpus
+Crawler](https://github.com/googlei18n/corpuscrawler) to crawl
+plaintext corpora yourself, and extract n-grams from the crawled
+content.
 
 
 ## Pronunciation
 
-In [pronunciation](data/pronunciation/), we’ll collect phonemic transcriptions
-of every word form to the
-[International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+In [pronunciation](data/pronunciation/), we collect phonemic
+transcriptions of every word form to the [International Phonetic
+Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+
+If the pronunciation varies by part of speech, we have a `PartOfSpeech`
+column in the pronunciation dictionary. As with everthing in this project,
+the format might be improved at some point.
+
+
+## Hyphenation
+
+In [hyphenation](data/hyphenation/), we collect hyhenated words.
+An entry `uit➊spra➋ken` means that it’s better to hyphenate
+`uit-spraken` than `uitspra-ken`. At some point, we’ll need to
+model hyphenations that modify the letter sequence. For example,
+in German traditional orthography (de-1901), the word `Beckenbruch`
+is hyphenated as `Bek-ken-bruch`. One way to express this might be
+`Be⟨ck|k➋k⟩en➊bruch`; but our current data did not need this yet.
 
 
 ## Morphology
 
 The data in [stems](data/stems/) is highly experimental and
-likely to change. Before settling on a format, we’ll be trying to model
-a set of languages with challenging morphology.
+particularly likely to change. Before settling on a format, we should
+model a set of languages with challenging morphology.
+
+
+## Part of Speech
+
+Currently, we have no part-of-speech tags. Contributions welcome.
