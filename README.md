@@ -12,10 +12,10 @@ and a variety of other services that require language processing.
 
 As a central repository, it can serve as a known location where software developers look to find lexical data, and a place where native language speakers can contribute data that can then be used to improve support for their language.
 To flesh out the support in different languages, the we are soliciting contributions of lexical data for different languages.
-That data is contributed as machine-readable list of words and their properties, as tab-separated plaintext files. To contribute, please create an issue.
+That data is contributed as machine-readable list of words and their properties, as tab-separated plaintext files. 
 
 Because the project has just started, there is a limited amount of data.
-Please do
+Please
 [create an issue](https://github.com/unicode-org/unilex/issues) if you
 can contribute lexical data for a language.
 
