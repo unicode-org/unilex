@@ -1,22 +1,22 @@
 # ![Unicode](http://www.unicode.org/webscripts/logo60s2.gif) Unilex
 
-Unilex is a machine-readable list of words.  For every word in every
-language, we’d like to collect [properties](PROPERTIES.md) such as
+Unilex is a new subproject of Unicode CLDR.
+The purpose is to provide a central repository of lexical data: information about words in different languages.
+For each language, the goal is to collect [properties](PROPERTIES.md) such as
 [word frequency](PROPERTIES.md#word-frequency),
 [pronunciation](PROPERTIES.md#pronunciation),
-[hyphenation](PROPERTIES.md#hyphenation), or eventually [part of
+[hyphenation](PROPERTIES.md#hyphenation), and eventually [part of
 speech](PROPERTIES.md#part-of-speech) and other linguistic
-information. The [Unicode Consortium](http://www.unicode.org/)
-releases this data under the same
-[license](http://unicode.org/copyright.html#License) as all its other
-data files. We hope you’ll find this data useful for building spell
-checkers, text-to-speech synthesis systems, and similar
-language-processing software.
+information. Such data can be useful for building spell checkers, text-to-speech synthesis systems, 
+and a variety of other services that require language processing.
 
-This project has just started, so you’ll see that the current coverage
-is quite minimal. To bring the project out of its “vaporware” state,
-we’d love to work with you! Please do
-[tell us](https://github.com/unicode-org/unilex/issues) if you
+As a central repository, it can serve as a known location where software developers look to find lexical data, and a place where native language speakers can contribute data that can then be used to improve support for their language.
+To flesh out the support in different languages, the we are soliciting contributions of lexical data for different languages.
+That data is contributed as machine-readable list of words and their properties, as tab-separated plaintext files. To contribute, please create an issue.
+
+Because the project has just started, there is a limited amount of data.
+Please do
+[create an issue](https://github.com/unicode-org/unilex/issues) if you
 can contribute lexical data for a language.
 
 Eventually, we plan releasing lexical data for the world’s languages
@@ -27,3 +27,8 @@ format everything into XML files according to the [Lexical Markup
 Framework](http://www.lexicalmarkupframework.org/); or we might define
 some new, possibly JSON-based format; or maybe we’ll just publish the
 data in its present form of tab-separated plaintext files.
+
+The [Unicode Consortium](http://www.unicode.org/)
+releases this data under the same
+[license](http://unicode.org/copyright.html#License) as all its other
+data files. Currently the format is tab-separated plaintext files, but additional formats may be offered in the future.
