@@ -58,7 +58,7 @@ transcriptions of every word form to the [International Phonetic
 Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 **File format:** The columns are identified by their headers
-in the TSV file.
+in the TSV file. Additional columns may be added over time.
 
 * `Form` is the surface form to be pronounced. There may be
 multiple rows for the same form in case it varies by part of
@@ -69,8 +69,12 @@ transcription in [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alph
 
 * `PartOfSpeech` and `Features` are optional fields, used to distinguish
 cases where the same form has multiple pronunciations. Currently, this
-is only used for [Bangla pronunciations](https://raw.githubusercontent.com/unicode-org/unilex/master/data/pronunciation/bn.txt). As
-with everything in this project, the data format will evolve over time.
+is only used for [Bangla pronunciations](https://raw.githubusercontent.com/unicode-org/unilex/master/data/pronunciation/bn.txt) but we anticipate that other
+languages will need the same. As identifiers, we use the
+[part of speech tags](http://universaldependencies.org/u/pos/)
+and [lexical features](http://universaldependencies.org/u/feat/index.html)
+from the [Universal Dependencies Project](http://universaldependencies.org/).
+When there’s no information available, we use `*`.
 
 **Adding more data:** We’re soliciting contributions.
 Please [file an issue](https://github.com/unicode-org/unilex/issues)
