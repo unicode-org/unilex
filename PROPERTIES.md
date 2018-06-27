@@ -85,13 +85,22 @@ You’re also welcome to simply send [pull requests](https://help.github.com/cat
 ## Hyphenation
 
 In [hyphenation](data/hyphenation/), we collect hyhenated words.
-An entry `uit➊spra➋ken` means that it’s better to hyphenate
-`uit-spraken` than `uitspra-ken`.
 
-At some point, we’ll need to
-model hyphenations that modify the letter sequence,
-but our current data doesn't yet need the additional structure.
-For example,
+**File format:** The columns are identified by their headers
+in the TSV file. Additional columns may be added over time.
+
+* `Form` is the surface form to be hyphenated.
+
+* `Hyphenation` is a marked-up version of the form where
+hyphenation points are indicated by circled digits with
+priorities. For example, an entry `uit➊spra➋ken` means
+that `uitspraken` can be hyphenated in two places, but
+that it’s better to write `uit-spraken` than `uitspra-ken`.
+There may be ties such as `aan➊de➊len`.
+
+At some point, we’ll need to model hyphenations that modify
+the letter sequence, but our current data doesn't yet need
+the additional structure. For example,
 in German traditional orthography (de-1901), the word `Beckenbruch`
 is hyphenated as `Bek-ken-bruch`.
 One way we‘ve considered expressing this is as `Be⟨ck|k➋k⟩en➊bruch`.
