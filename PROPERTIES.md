@@ -5,9 +5,12 @@ UTF-8 encoding. The file names are [Unicode locale
 identifiers](http://unicode.org/reports/tr35/#Unicode_locale_identifier)
 in IETF BCP47 syntax; for example, `vec-u-sd-itpd.txt` contains
 data for the Venetian language as used in the Padua subdivision of Italy.
+If there are multiple data files for the same locale in the same folder,
+they are distinguished by a private-use subtag such as `en-CA-x-foobar`.
 
 If you’d like to contribute data, please
 [tell us by filing a GitHub issue](https://github.com/unicode-org/unilex/issues).
+You’re also welcome to simply send [pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) via GitHub.
 
 For more background, see the main [Unilex description](https://github.com/unicode-org/unilex/blob/master/README.md).
 
@@ -15,12 +18,21 @@ For more background, see the main [Unilex description](https://github.com/unicod
 ## Word frequency
 
 In [frequency](data/frequency/), we collect data how often each word
-form appears per billion tokens in a language corpus. (Our corpora are
-actually much smaller than a billion tokens, but their size varies a lot
+form appears in a language corpus.
+
+**File format:** The columns are identified by their headers
+in the TSV file. Additional columns may be added over time.
+
+* `Form` is the surface form being counted.
+
+* `Frequency` tells how often this form appears per billion tokens.
+Our corpora are actually much smaller, but their size varies a lot
 depending on the language; so we scale the numbers to a hypothetical
-total of one billion tokens per language). Currently, we use Google’s
+total of one billion tokens per language.
+
+**Source:** Currently, we use Google’s
 [Corpus Crawler](https://github.com/googlei18n/corpuscrawler) project
-to build language corpora. We’re computing our word frequencies on these
+to build language corpora. We’ve computed our word frequencies on these
 crawled corpora, but we’re open to accepting other contributions.
 
 **Noise:** We are just getting started, so there will be some noise in
@@ -30,11 +42,12 @@ from quoting a foreign language, or words representing model numbers
 should be usable enough to advance the quality for languages that
 otherwise have little available data.
 
-**Segmentation:** The crawled data uses the word-break algorithm of
-the ICU library. For many languages, this corresponds to what people
-think of as “space-delimited” words. For languages that don’t
-typically use spaces, and are not supported by ICU’s word break, the
-mechanism doesn’t yet work. We’ll need to address this in the future.
+**Segmentation:** To segment the crawled data, we typically used
+the [word-break algorithm](http://userguide.icu-project.org/boundaryanalysis)
+of the [ICU library](http://site.icu-project.org/home). For most languages,
+this corresponds to what people think of as “space-delimited” words.
+For languages that don’t typically use spaces, an extended algorithm
+was used.
 
 **N-Grams:** Currently, we have no n-gram data available for our
 datasets. However, you can run [Corpus
