@@ -42,6 +42,14 @@ Crawler](https://github.com/googlei18n/corpuscrawler) to crawl
 plaintext corpora yourself, and extract n-grams from the crawled
 content.
 
+**Adding more data:** To add more data to a language requires
+modifying the code of
+[Corpus Crawler](https://github.com/googlei18n/corpuscrawler)
+for that language. The changes are to 
+fetch additional URLs, and to extract text from the crawled
+content. For more information, see
+[Corpus Crawler](https://github.com/googlei18n/corpuscrawler).
+
 
 ## Pronunciation
 
@@ -49,13 +57,22 @@ In [pronunciation](data/pronunciation/), we collect phonemic
 transcriptions of every word form to the [International Phonetic
 Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
-If a word has multiple pronunciations, we have separate entries.
-If the pronunciation varies by part of speech or grammatical features,
-we have a `PartOfSpeech` and `Features` column in the pronunciation
-dictionary; see
-[Bangla pronunciation](https://raw.githubusercontent.com/unicode-org/unilex/master/data/pronunciation/bn.txt) for an example. As
+**File format:** The columns are identified by their headers
+in the TSV file.
+
+* `Form` is the surface form to be pronounced. There may be
+multiple rows for the same form in case it varies by part of
+speech or grammatical features.
+
+* `Pronunciation` is a phonemic
+transcription in [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+
+* `PartOfSpeech` and `Features` are optional fields, used to distinguish
+cases where the same form has multiple pronunciations. Currently, this
+is only used for [Bangla pronunciations](https://raw.githubusercontent.com/unicode-org/unilex/master/data/pronunciation/bn.txt). As
 with everything in this project, the data format will evolve over time.
 
+**Adding more data:** We’re soliciting contributions.
 Please [file an issue](https://github.com/unicode-org/unilex/issues)
 to improve the current data, or to add additional data sets.
 You’re also welcome to simply send [pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) via GitHub.
@@ -75,17 +92,17 @@ in German traditional orthography (de-1901), the word `Beckenbruch`
 is hyphenated as `Bek-ken-bruch`.
 One way we‘ve considered expressing this is as `Be⟨ck|k➋k⟩en➊bruch`.
 
-
-## Morphology
-
-The data in [stems](data/stems/) is highly experimental and
-particularly likely to change. Before settling on a format, we should
-model a set of languages with more challenging morphologies.
-
-
-## Part of Speech
-
-Currently, we have no part-of-speech tags. Contributions are welcome.
-Please [file an issue](https://github.com/unicode-org/unilex/issues)
+**Adding more data:** We’re soliciting contributions. Again,
+please [file an issue](https://github.com/unicode-org/unilex/issues)
 to improve the current data, or to add additional data sets.
 You’re also welcome to simply send [pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/) via GitHub.
+
+
+## Experimental
+
+### Morphology and Grammar
+
+In the long term, it would be good to model morphological and grammatical features.
+Currently, however, we’re not sure how to do this. The current data in
+[stems](data/experimental/stems/) is highly experimental and particularly likely to change. Before settling on a format, we should
+model a set of languages with more challenging morphologies.
