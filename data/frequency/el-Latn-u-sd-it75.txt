@@ -25,8 +25,6 @@ Achà	113238
 Addhi	6291
 Addho	6291
 Adiu	6291
-Adj	440370
-Adv	1044306
 Ae	6291
 Affidèfsane	6291
 Afse	6291
@@ -1343,7 +1341,6 @@ Ntrikèftisa	25164
 Ntsina	6291
 Ntsìgnase	6291
 Nui	6291
-Num	81783
 Nunna	6291
 Nunne	6291
 Nunnu	18873
@@ -1567,7 +1564,6 @@ Possibile	6291
 Posso	25164
 Posson	44037
 Po’	18873
-Pr	1635660
 Pra	6291
 Prai	314550
 Praise	6291
@@ -1596,7 +1592,6 @@ Pronà	12582
 Proppi	31455
 Proprio	6291
 Prosperi	6291
-Prt	742338
 Pru	6291
 Pràise	6291
 Pràiso	6291
@@ -12073,7 +12068,6 @@ pulù	6291
 pulù’	6291
 pume	88074
 pun	12582
-punct	2415744
 pune	113238
 punga	169857
 punghe	18873
