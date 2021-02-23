@@ -29,3 +29,7 @@ Except as contained in this notice, the name of a copyright holder
 shall not be used in advertising or otherwise to promote the sale,
 use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
+
+OR
+
+CCBY-4.0 (Creative Commons BY License, v4.0 https://creativecommons.org/licenses/by/4.0/)
