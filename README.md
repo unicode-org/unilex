@@ -7,7 +7,7 @@ For each language, the goal is to collect [properties](PROPERTIES.md) such as
 [pronunciation](PROPERTIES.md#pronunciation),
 [hyphenation](PROPERTIES.md#hyphenation), and eventually [part of
 speech](PROPERTIES.md#part-of-speech) and other linguistic
-information. Such data can be useful for building spell checkers, text-to-speech synthesis systems, 
+information. Such data can be useful for building spell checkers, text-to-speech synthesis systems,
 and a variety of other services that require language processing.
 
 As a central repository, it can serve as a known location where software developers look to find lexical data, and a place where native language speakers can contribute data that can then be used to improve support for their language.
@@ -28,7 +28,10 @@ Framework](http://www.lexicalmarkupframework.org/); or we might define
 some new, possibly JSON-based format; or maybe we’ll just publish the
 data in its present form of tab-separated plaintext files.
 
-The [Unicode Consortium](http://www.unicode.org/)
-releases this data under the same
-[license](http://unicode.org/copyright.html#License) as all its other
-data files. Currently the format is tab-separated plaintext files, but additional formats may be offered in the future.
+### Copyright & Licenses
+
+Copyright © 2017-2023 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
+
+The project is released under [LICENSE](./LICENSE).
+
+A CLA is required to contribute to this project - please refer to the [CONTRIBUTING.md](https://github.com/unicode-org/.github/blob/main/.github/CONTRIBUTING.md) file (or start a Pull Request) for more information.
